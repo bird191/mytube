@@ -1,0 +1,150 @@
+body{
+  background-color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Homes{
+  border: 1px solid yellow;
+  background-color: yellow;
+  color:black;
+}
+.Boardgames{
+  border: 1px dashed blue;
+  background: blue;
+}
+a:hover{
+  color:lightblue;
+  text-decoration: underline;
+}
+.Yugioh{
+  border: 1px dotted black;
+  background:black;
+  color:lightgreen;
+}
+.Smash{
+  border: 1px groove red;
+  color:darkblue; 
+  background:red;
+}
+.form{
+  border: 1px ridge dimgray;
+  color:darkred;
+  background:dimgray;
+  justify-content: right;
+}
+.smashtrailer{
+  color:red;
+  border: 1px inset yellow;
+}
+.RR{
+  border: 1px outset blue;
+  color:darkgreen;
+  background: purple;
+  
+}
+.masterduel{
+  border: 1px double black;
+  color:blue;
+}
+.Boardgamesback{
+  background-color: blue;
+}
+.Boardgamestext{
+  color:white;
+}
+.yugiohback{
+  background-color: black;
+}
+.yugiohtext
+{
+  color:blue;
+}
+.smashback{
+  background-color: red;
+}
+.smashtext{
+  color:white;
+}
+.formback{
+  background-color: dimgray;
+}
+.dimtext{
+  color:red;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.RRback{
+  background-color: purple;
+}
+.RRtext{
+  color:darkgreen
+}
+.submit{
+  background-color: red;
+}
+.vidanswer{
+  text-align: center;
+}
+.radio{
+  opacity: 50;
+  height: 25px;
+  width: 25px;
+}
+textarea{
+  border-radius: 25%;
+}
+.file{
+  font-family: 'Times New Roman', Times, serif;
+}
+.select{
+  text-align: right;
+}
+.MDback{
+  background-color: chocolate;
+}
+.MDtext{
+  color: chartreuse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+iframe{
+  border-radius: 30%;
+  border: 10px solid red;
+}
+.smashTback{
+  background-color: darkcyan;
+}
+.smashTtext{
+ color:forestgreen;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.homeh1{
+  background-image:radial-gradient(blue,black);
+  color:red;
+  width: 160px;
+}
+.homeback{
+  background-image: linear-gradient(yellow, red,silver, purple);
+  background-repeat: no-repeat;
+}
+.homep{
+  color: green;
+  text-align: center;
+}
+.yugiohtexth{
+  text-decoration:underline;
+  color:lightgreen;
+  text-align:center
+}
+.smashhead{
+  color:darkred
+}
+.Boardgamestexth{
+  color:aqua;
+  font-family:arial;
+}

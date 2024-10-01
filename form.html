@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>
+    UPLOAD VIDEO PAGE
+  </title>  
+</head>
+<body class="formback">
+    <nav>
+        <a href="index.html"class="Homes">Home</a>
+        <a href="./pages/Boardgames.html"class="Boardgames">Boardgames</a>
+        <a href="./pages/Yugioh.html"class="Yugioh">Yugioh</a>
+        <a href="./pages/Smash.html"class="Smash">Smash</a>
+        <a href="form.html"class="form">New Video</a>
+    </nav>
+    <h1 class="dimtext">
+     Add New Video
+    </h1>
+    <form 
+    action="action_page.php"
+    name="Upload"
+    target="_blank"
+    method="post"
+    >
+    <label for="title" class="dimtext">
+      <strong>Video Title</strong> 
+    </label><br>
+    <input id="title" name="title" type="text" placeholder="Input value" class="vidanswer"><br> 
+    <label for="Description" class="dimtext">
+        <strong>Description</strong>
+      </label><br>
+      <textarea rows="5" cols="20" name="Message">
+        Text area content
+      </textarea><br>
+    <label for="Video" class="dimtext">
+      Video
+    </label><br>
+    <input id="Video" name="Video" type="file" class="file"><br><br>
+    <select id="Video" name="Video" class="select">
+      <option>
+        Boardgames
+      </option>
+      <option>
+        Yugioh
+      </option>
+      <option>
+        Smash
+      </option>
+      <option selected>
+        Choose Category
+      </option>
+    </select><br><br> 
+    <input id="Public" name="Privacy" type="radio" class="radio" >
+    <label for="Pulic" class="dimtext">
+      Public
+    </label>
+    <input id="Private" name="Privacy" type="radio" class="radio">
+    <label for="Private"class="dimtext">
+      Private
+    </label><br>
+    </p>
+    <button type="submit" class="submit">
+        Upload Video
+    </button>
+    </form>
+</body>
+<hr>
+<footer class="dimtext">
+  &copy: Copyright
+</footer>
+</html>
